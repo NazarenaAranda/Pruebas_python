@@ -15,6 +15,8 @@ len - Ver cuantos caracteres tiene una string
 
 .pop() - Borro elementos de una lista
 
+round(nombre de que queremos redondear, x) -  redonde el numero x de los lugares que le aclaramos
+
 Listas y Tuplas:
 --------------
 
