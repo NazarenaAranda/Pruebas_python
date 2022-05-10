@@ -51,28 +51,30 @@ Al querer ingresar a python3 desde nuestra funcion si ponemos la flag -m (es un 
 
 Luego de hacer esto, nos va a aparecer varias carpetas adentro de nuestro entorno, nosotros vamos a tocar Script porque ahi es donde esta el comando para activar nuestro entorno virtual
 
-Se activa con el comando : .\venv\Scripts\activate, y se deja de usar un pyton global para usar un python clonado, solamente va a funcionar en ese proyecto. Con deactive se sale de ese entorno.
+Se activa con el comando : .\venv\Scripts\activate, y se deja de usar un pyton global para usar un python clonado, solamente va a funcionar en ese proyecto. Con (deactive) se sale de ese entorno.
 
 Modulos:
 -------
 
 Un modulo es codigo escrito por otras personas que nosotros podemos utilizar, un ejemplo de modulo es Random.
-En python tenemos varios modulos, que ya vienen descargados, pero hay ciertos modulos que no estan de fabrica con pytho y tenemos que instalarlos de manera externa, esto lo podemos hacer con un manejador de dependencias o tambien llamado instalador de paquetes. El mas popular en python es PIP (Package Installer for Python), este instalador viene de fabrica, esta pensado basicamente para instalar otros modulos que no vienen dentro de python. Un ejemplo de modulo popular externo, es pytest, que nos sirve para realizar testing. PIP es una herramienta que va acompañada con el entorno virtual y no deberiamos usarla fuera del mismo.
+En python tenemos varios modulos, que ya vienen descargados, pero hay ciertos modulos que no estan de fabrica con pythoncle y tenemos que instalarlos de manera externa, esto lo podemos hacer con un manejador de dependencias o tambien llamado instalador de paquetes. El mas popular en python es PIP (Package Installer for Python), este instalador viene de fabrica, esta pensado basicamente para instalar otros modulos que no vienen dentro de python. Un ejemplo de modulo popular externo, es pytest, que nos sirve para realizar testing. PIP es una herramienta que va acompañada con el entorno virtual y no deberiamos usarla fuera del mismo.
 
 Usar PIP para instalar modulos en entorno virtual:
 -------------------------------------------------
 
-Lo primero que tenemos que hacer es entrar en nuestro entorno virtual, con el comando pip freeze veremos que modulos externos tenemos instalados.
+Lo primero que tenemos que hacer es entrar en nuestro entorno virtual, luego con el comando pip freeze veremos que modulos externos tenemos instalados.
 Para instalar basicamente ponemos pip install y el nombre del modulo que nosotros queremos. Cuando instalamos modulos complejos que utilizan otros modulos, se van a instalar junto con el modulo que nosotros instalamos.
 
 COMPARTIR PROYECTO: 
 
-Al compartir el proyecto la otra persona debe tener el mismo python que nosotros, con los mismos modulos y todo lo que le hayamos instalado. Para eso podemos hacer pip freeze > requirements.txt, al usar este comando pasamos todos los modulos instalados a un nuevo archivo. Entonces cuando lo compartamos con otra persona, esa persona solo va a tener que escribir pip install -r requirements.txt
+Al compartir el proyecto la otra persona debe tener el mismo python que nosotros, con los mismos modulos y todo lo que le hayamos instalado. Para eso podemos hacer pip freeze > requirements.txt, al usar este comando pasamos todos los modulos instalados a un nuevo archivo. Entonces cuando lo compartamos con otra persona, esa persona solo va a tener que escribir pip install -r requirements.txt, con esto se le instala todas las dependencias que guardamos en requirements.txt.
 
 Datos:
 ------
 
 Con random la computadora busca un valor random de lo que nosotros le aclaremos, en el caso del diccionario usamos random.choice porque lo que queremos es un caracter de cualquier tipo. Con random.randint() nos busca un numero random.
+
+Con "code ." se abre visual desde la terminal
 
 Filter: filtra los datos de una lista retornando solo los que son True
 
