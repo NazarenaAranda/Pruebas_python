@@ -88,6 +88,12 @@ Map: manipula los datos de una lista
 
 Reduce: opera los datos de una lista entre sí para obtener 1 solo resultado
 
+Funciones Lambdas:
+------------------
+Es una manera de crear funciones anonimas, sin nombre. No tienen identificacion. La estructura es "lambda argumentos: expresion" Lamda en python puede tener una sola linea de codigo, es decir una sola linea de expresion.
+No es necesario escribir return porque lo hace solo
+
+
 -------------------------------------------------------------
 
 OTRO PROYECTO UWU
