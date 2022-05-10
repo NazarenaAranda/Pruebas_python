@@ -18,3 +18,4 @@ def main(): #funcion principal, va a correr todo el programa desde el inicio al 
 
 if __name__ == "__main__": #punto de entrada
     main()
+    
