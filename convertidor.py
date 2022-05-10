@@ -70,7 +70,7 @@ elif opcion == 4:
     dolares = str(dolares) #str pasa el numero a texto
     print("Tienes $" + dolares + " dolares")
     
-    dolares = input("Cuantos reales para pasar a pesos uruguayos tienes?" )
+    dolares = input("Cuantos reales para pasar a pesos uruguayos?")
     dolares = float(dolares)
     valor_pesos = 8.05
     pesos = dolares / valor_pesos
