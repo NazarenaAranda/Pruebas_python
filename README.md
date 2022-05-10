@@ -1,4 +1,5 @@
 Conceptos de funciones que vienen dentro del programa de python:
+--------------------------------------------------------------
 
 .upper() - Convierte todo el texto a mayusculas
 
@@ -14,6 +15,9 @@ len - Ver cuantos caracteres tiene una string
 
 .pop() - Borro elementos de una lista
 
+Listas y Tuplas:
+--------------
+
 En python a comparacion de C dentro de una lista(array), puedo tener diferentes elementos de diferentes tipos, es decir, puedo poner un caracter, una string, un numero entero, etc.
 
 Las listas son dinamicas, ocupan mas memoria, y se usa []. En cambio, las tuplas son estaticas, eso quiere decir que no puedo usar append ni pop, al ser estaticas ocupan menos memoria y se identifican con ()
@@ -23,6 +27,7 @@ Las tuplas son inmutables(no puede cambiar), asi como las strings. Las listas so
 Los diccionarios en Python son una estructura de datos mutable las cuales almacenan diferentes tipos de valores sin darle importancia a su orden. Identifican a cada elemento por una clave (Key). Se escriben entre {}.
 
 Operaciones en diccionarios:
+-----------------------------
 
 .keys():Retorna la clave de nuestro elemento.
 
@@ -54,6 +59,9 @@ Al querer ingresar a python3 desde nuestra funcion si ponemos la flag -m (es un 
 Luego de hacer esto, nos va a aparecer varias carpetas adentro de nuestro entorno, nosotros vamos a tocar Script porque ahi es donde esta el comando para activar nuestro entorno virtual
 
 -------------------------------------------------------------
+
+OTRO PROYECTO UWU
+-----------------
 
 FIFO (primero en entrar, primero en salir)
 FILO (primero en entrar, último en salir)
