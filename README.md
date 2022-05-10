@@ -42,6 +42,17 @@ Map: manipula los datos de una lista
 
 Reduce: opera los datos de una lista entre sí para obtener 1 solo resultado
 
+ENTORNO VIRTUAL
+---------------
+
+Un entorno virtual es un programa asilado que tiene sus propios modulos. Esto se hace para que si hay una actualizacion y sacan algo que nosotros usamos no se nos rompa.
+
+Git init - inicializa un repositorio vacio de github
+
+Al querer ingresar a python3 desde nuestra funcion si ponemos la flag -m (es un indicativo que dice que vamos a modificar el funcionamiento original. -m es el modulo interno del lenguaje) y "venv" es el modulo que significa entorno virtual. Luego de esto va el nombre que le queremos poner al entorno, generalmente se pone (venv).
+
+Luego de hacer esto, nos va a aparecer varias carpetas adentro de nuestro entorno, nosotros vamos a tocar Script porque ahi es donde esta el comando para activar nuestro entorno virtual
+
 -------------------------------------------------------------
 
 FIFO (primero en entrar, primero en salir)
