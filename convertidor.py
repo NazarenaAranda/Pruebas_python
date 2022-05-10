@@ -1,12 +1,10 @@
-def conversor(tipo_pesos, valor_dolar):
+def conversor(tipo_pesos, valor_dolar): #funcion
     pesos = input("Cuantos pesos" + tipo_pesos + " tienes? ") #input es para que el usuario ingrese algo
     pesos = float(pesos) #con float pasas a decimal
     dolares = pesos / valor_dolar
     dolares = round(dolares, 2) #round sirve para redondear el numero los lugares que le aclaramos
     dolares = str(dolares) #str pasa el numero a texto
     print("Tienes $" + dolares + " dolares")
-
-
 
 menu = """
 Bienvenido al conversor de monedas 🤑
