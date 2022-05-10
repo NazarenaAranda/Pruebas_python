@@ -58,6 +58,10 @@ Al querer ingresar a python3 desde nuestra funcion si ponemos la flag -m (es un 
 
 Luego de hacer esto, nos va a aparecer varias carpetas adentro de nuestro entorno, nosotros vamos a tocar Script porque ahi es donde esta el comando para activar nuestro entorno virtual
 
+Se activa con el comando : .\venv\Scripts\activate, y se deja de usar un pyton global para usar un python clonado, solamente va a funcionar en ese proyecto.
+
+con deactive se sale de ese entorno.
+
 -------------------------------------------------------------
 
 OTRO PROYECTO UWU
