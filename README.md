@@ -78,6 +78,8 @@ Con "code ." se abre visual desde la terminal
 
 .gitignore: Aca ponemos el nombre del archivo que queremos ignorar cuando lo subamos a github
 
+List comprehensions: forma de crear listas de una manera elegante simplificando el código al máximo.
+
 Filter: filtra los datos de una lista retornando solo los que son True
 
 Map: manipula los datos de una lista
