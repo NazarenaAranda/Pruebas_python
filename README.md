@@ -33,6 +33,9 @@ Operaciones en diccionarios:
 .clear(): Elimina todos los items del diccionario.
 
 .pop(“n”): Elimina el elemento ingresado.
+
+Con random la computadora busca un valor random de lo que nosotros le aclaremos, en el caso del diccionario usamos random.choice porque lo que queremos es un caracter de cualquier tipo
+
 -------------------------------------------------------------
 
 FIFO (primero en entrar, primero en salir)
