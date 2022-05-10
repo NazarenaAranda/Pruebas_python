@@ -11,7 +11,7 @@ def generar_contrasena():
     contrasena = []
 
     for i in range(15): #queremos que nuestra contraseña tenga 15 caracteres
-        caracter_random = random.choice(caracteres)
+        caracter_random = random.choice(caracteres) #con (caracteres) le decimos que el caracter random que queremos esta dentro de lo que pusimos anteriormente en la variable caracteres 
         contrasena.append(caracter_random) #con append agregamos a contrasena caracter_random
         
     contrasena = "".join(contrasena) #join convierte todo a string y le saca los espacios

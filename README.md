@@ -34,7 +34,13 @@ Operaciones en diccionarios:
 
 .pop(“n”): Elimina el elemento ingresado.
 
-Con random la computadora busca un valor random de lo que nosotros le aclaremos, en el caso del diccionario usamos random.choice porque lo que queremos es un caracter de cualquier tipo
+Con random la computadora busca un valor random de lo que nosotros le aclaremos, en el caso del diccionario usamos random.choice porque lo que queremos es un caracter de cualquier tipo. Con random.randint() nos busca un numero random.
+
+Filter: filtra los datos de una lista retornando solo los que son True
+
+Map: manipula los datos de una lista
+
+Reduce: opera los datos de una lista entre sí para obtener 1 solo resultado
 
 -------------------------------------------------------------
 
