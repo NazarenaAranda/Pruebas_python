@@ -76,6 +76,8 @@ Con random la computadora busca un valor random de lo que nosotros le aclaremos,
 
 Con "code ." se abre visual desde la terminal
 
+.gitignore: Aca ponemos el nombre del archivo que queremos ignorar cuando lo subamos a github
+
 Filter: filtra los datos de una lista retornando solo los que son True
 
 Map: manipula los datos de una lista
