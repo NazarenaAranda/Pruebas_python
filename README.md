@@ -68,6 +68,7 @@ Lo primero que tenemos que hacer es entrar en nuestro entorno virtual, luego con
 Para instalar basicamente ponemos pip install y el nombre del modulo que nosotros queremos. Cuando instalamos modulos complejos que utilizan otros modulos, se van a instalar junto con el modulo que nosotros instalamos.
 
 COMPARTIR PROYECTO: 
+-----------------
 
 Al compartir el proyecto la otra persona debe tener el mismo python que nosotros, con los mismos modulos y todo lo que le hayamos instalado. Para eso podemos hacer pip freeze > requirements.txt, al usar este comando pasamos todos los modulos instalados a un nuevo archivo. Entonces cuando lo compartamos con otra persona, esa persona solo va a tener que escribir pip install -r requirements.txt, con esto se le instala todas las dependencias que guardamos en requirements.txt.
 
@@ -88,7 +89,7 @@ Map: manipula los datos de una lista
 
 Reduce: opera los datos de una lista entre sí para obtener 1 solo resultado
 
-Funciones Lambdas:
+Funciones Lambda:
 ------------------
 Es una manera de crear funciones anonimas, sin nombre. No tienen identificacion. La estructura es "lambda argumentos: expresion" Lamda en python puede tener una sola linea de codigo, es decir una sola linea de expresion.
 No es necesario escribir return porque lo hace solo.
