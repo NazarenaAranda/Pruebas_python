@@ -1,3 +1,107 @@
+Concepts of functions that come inside the python program:
+--------------------------------------------------------------
+
+.upper() - Convert all text to uppercase
+
+.capitalize() - Convert the first letter to uppercase
+
+.strip() - Delete junk spaces
+
+.replace() - replace the first parameter we give it inside the parenthesis with the second one
+
+len - See how many characters a string has
+
+.append() - Add an element to a list
+
+.pop() - delete items from a list
+
+round(name of what we want to round, x) - Round the number x from the places that we clear it
+
+Lists and Tuples:
+--------------
+
+In python in comparison to C, inside a list(array), I can have different elements of different types, that is to say, I can put a character, a string, an integer, etc.
+
+Lists are dynamic, take more memory, and [] is used. On the other hand, the tuples are static, that means that I can not use append or pop, being static they occupy less memory and are identified with ().
+
+The tuples are immutable (they cannot change), as well as the strings. Lists are mutable (they can change). That's the difference they have
+
+Python dictionaries are a mutable data structure which store different types of values without giving importance to their order. They identify each element by a key. They are written between {}.
+
+Operations on dictionaries:
+-----------------------------
+
+.keys():Returns the key of our element.
+
+.values(): Returns a list of items (dictionary values).
+
+.items(): Returns list of tuples (first the key and then the value).
+
+.clear(): Removes all items from the dictionary.
+
+.pop("n"): Removes the entered item.
+
+
+VIRTUAL ENVIRONMENT
+---------------
+
+A virtual environment is an isolated program that has its own modules. This is done so that if there is an update and they release something that we use, it won't break.
+
+Git init - initialize an empty github repository
+
+When we want to enter python3 from our function if we set the -m flag (it is a flag that says that we are going to modify the original operation. -m is the internal module of the language) and "venv" is the module that means virtual environment. After this goes the name that we want to put to the environment, generally it is put (venv).
+
+After doing this, we will see several folders inside our environment, we are going to touch Script because that is where the command to activate our virtual environment is located
+
+It is activated with the command : .\venv\Scripts\activate, and we stop using a global pyton to use a cloned python, it will only work in that project. With (deactivate) you exit that environment.
+
+Modules:
+-------
+
+A module is code written by other people that we can use, an example of a module is Random.
+In python we have several modules, which are already downloaded, but there are certain modules that are not factory with pythoncle and we have to install them externally, this can be done with a dependency manager or also called package installer. The most popular in python is PIP (Package Installer for Python), this installer comes from factory, it is basically intended to install other modules that do not come with python. An example of a popular external module is pytest, which is used for testing. PIP is a tool that comes with the virtual environment and should not be used outside of it.
+
+Use PIP to install modules in virtual environment:
+-------------------------------------------------
+
+The first thing we have to do is to enter in our virtual environment, then with the command pip freeze we will see which external modules we have installed.
+To install basically we put pip install and the name of the module we want. When we install complex modules that use other modules, they are going to be installed along with the module that we install.
+
+SHARE PROJECT: 
+-----------------
+
+When sharing the project the other person must have the same python as us, with the same modules and everything we have installed. For that we can do pip freeze > requirements.txt, using this command we pass all the installed modules to a new file. Then when we share it with another person, that person is just going to have to type pip install -r requirements.txt, with this it installs all the dependencies we saved in requirements.txt.
+
+Data:
+------
+
+With random the computer looks for a random value of what we clarify to him, in the case of the dictionary we use random.choice because what we want is a character of any type. With random.randint() it looks for a random number.
+
+With "code ." it is opened visual from the terminal
+
+.gitignore: Here we put the name of the file that we want to ignore when we upload it to github.
+
+List comprehensions: way to create lists in an elegant way simplifying the code to the maximum.
+
+![1_DreeF8a4h2pvxRly39HjAA](https://user-images.githubusercontent.com/98347450/173175518-16178b30-1c64-4284-8dca-96cbf15576bb.jpeg)
+
+Map: manipulates the data of a list, the output has the same amount of values as the input.
+
+Filter: filters the data of a list returning only those that are True or False according to the value that is within the searched criteria or not.
+
+Reduce takes 2 values given as parameters and the iterator as another parameter. It performs the function with these 2 values, and then with the result of this and the value that follows it in the array. And so on until it goes through all the values in the list.
+
+Lambda functions:
+------------------
+It is a way to create anonymous functions, without name. They have no identification. The structure is "lambda arguments: expression" Lamda in python can have a single line of code, that is a single line of expression.
+It is not necessary to write return because it does it by itself.
+
+
+
+---------------------------------------------------------------
+
+
+
 Conceptos de funciones que vienen dentro del programa de python:
 --------------------------------------------------------------
 
@@ -83,9 +187,11 @@ Con "code ." se abre visual desde la terminal
 
 List comprehensions: forma de crear listas de una manera elegante simplificando el código al máximo.
 
-Filter: filtra los datos de una lista retornando solo los que son True o False según el valor que esté dentro de los criterios buscados o no
+![1_DreeF8a4h2pvxRly39HjAA](https://user-images.githubusercontent.com/98347450/173175518-16178b30-1c64-4284-8dca-96cbf15576bb.jpeg)
 
 Map: manipula los datos de una lista, el output tiene la misma cantidad de valores que el input
+
+Filter: filtra los datos de una lista retornando solo los que son True o False según el valor que esté dentro de los criterios buscados o no
 
 Reduce toma 2 valores entregados como parámetros y el iterador como otro parámetro. Realiza la función con estos 2 valores, y luego con el resultado de esto y el valor que le sigue en el array. Y así hasta pasar por todos los valores de la lista.
 
@@ -97,11 +203,3 @@ No es necesario escribir return porque lo hace solo.
 Función de orden superior:
 ---------------------------
 Es una función que recibe como parámetro a otra función
-
-OTRO PROYECTO UWU
------------------
-
-FIFO (primero en entrar, primero en salir)
-FILO (primero en entrar, último en salir)
-LIFO (último en entrar, primero en salir)
-LILO (último en entrar, último en salir)
