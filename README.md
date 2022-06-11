@@ -83,6 +83,8 @@ Con "code ." se abre visual desde la terminal
 
 List comprehensions: forma de crear listas de una manera elegante simplificando el código al máximo.
 
+![1_DreeF8a4h2pvxRly39HjAA](https://user-images.githubusercontent.com/98347450/173175518-16178b30-1c64-4284-8dca-96cbf15576bb.jpeg)
+
 Filter: filtra los datos de una lista retornando solo los que son True o False según el valor que esté dentro de los criterios buscados o no
 
 Map: manipula los datos de una lista, el output tiene la misma cantidad de valores que el input
