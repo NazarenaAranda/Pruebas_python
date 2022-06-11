@@ -85,9 +85,9 @@ List comprehensions: forma de crear listas de una manera elegante simplificando 
 
 ![1_DreeF8a4h2pvxRly39HjAA](https://user-images.githubusercontent.com/98347450/173175518-16178b30-1c64-4284-8dca-96cbf15576bb.jpeg)
 
-Filter: filtra los datos de una lista retornando solo los que son True o False según el valor que esté dentro de los criterios buscados o no
-
 Map: manipula los datos de una lista, el output tiene la misma cantidad de valores que el input
+
+Filter: filtra los datos de una lista retornando solo los que son True o False según el valor que esté dentro de los criterios buscados o no
 
 Reduce toma 2 valores entregados como parámetros y el iterador como otro parámetro. Realiza la función con estos 2 valores, y luego con el resultado de esto y el valor que le sigue en el array. Y así hasta pasar por todos los valores de la lista.
 
