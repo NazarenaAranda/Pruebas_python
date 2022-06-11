@@ -203,3 +203,9 @@ No es necesario escribir return porque lo hace solo.
 Función de orden superior:
 ---------------------------
 Es una función que recibe como parámetro a otra función
+
+filter → recibe una función filtro (anónima) y un iterable (lista, tupla, etc) devolviendonos un iterador: objeto optimizado recorrer elemento a elemento (iterar) por lo que no lo podemos inprimir de manera directa (para ello lo convertimos a una lista), su sintaxis es: filter(<funcion filtro>, <iterable>)
+  
+map → al igual que filter recibe una función anónima y un iterable como parámetros pero en este caso map ejecuta la función sobre cada uno de los elementos del iterable, sintaxis: map(<funcion>, <iterable>)
+  
+reduce → tenemos que importar esta función desde functools para poder usarla, tiene los mismos argumentos que las anteriores funciones, reduce el iterable por medio de la función anonima, su sintaxis es: reduce(<funcion reduccion>, <iterable>), la función de reducción necesita de dos parámetros, uno que almacena el resultado (o el primer valor del iterable) y otro que opera con el siguiente valor del iterable: lambda a,b: <expresión>
