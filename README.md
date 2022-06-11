@@ -83,11 +83,11 @@ Con "code ." se abre visual desde la terminal
 
 List comprehensions: forma de crear listas de una manera elegante simplificando el código al máximo.
 
-Filter: filtra los datos de una lista retornando solo los que son True
+Filter: filtra los datos de una lista retornando solo los que son True o False según el valor que esté dentro de los criterios buscados o no
 
-Map: manipula los datos de una lista
+Map: manipula los datos de una lista, el output tiene la misma cantidad de valores que el input
 
-Reduce: opera los datos de una lista entre sí para obtener 1 solo resultado
+Reduce toma 2 valores entregados como parámetros y el iterador como otro parámetro. Realiza la función con estos 2 valores, y luego con el resultado de esto y el valor que le sigue en el array. Y así hasta pasar por todos los valores de la lista.
 
 Funciones Lambda:
 ------------------
