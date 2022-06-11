@@ -97,11 +97,3 @@ No es necesario escribir return porque lo hace solo.
 Función de orden superior:
 ---------------------------
 Es una función que recibe como parámetro a otra función
-
-OTRO PROYECTO UWU
------------------
-
-FIFO (primero en entrar, primero en salir)
-FILO (primero en entrar, último en salir)
-LIFO (último en entrar, primero en salir)
-LILO (último en entrar, último en salir)
